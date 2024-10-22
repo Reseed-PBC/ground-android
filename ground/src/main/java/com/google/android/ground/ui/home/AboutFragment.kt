@@ -67,9 +67,9 @@ class AboutFragment : AbstractFragment() {
     ) { innerPadding ->
       Column(modifier = Modifier.padding(innerPadding).padding(horizontal = 35.dp)) {
         Image(
-          bitmap = R.drawable.ground_logo.toImageBitmap(),
+          bitmap = R.drawable.reseed_logo_h.toImageBitmap(),
           contentDescription = "Logo",
-          modifier = Modifier.padding(0.dp, 8.dp, 0.dp, 22.dp).width(122.dp).height(122.dp),
+          modifier = Modifier.padding(0.dp, 8.dp, 0.dp, 22.dp).width(122.dp).height(50.dp),
         )
 
         val uriHandler = LocalUriHandler.current
